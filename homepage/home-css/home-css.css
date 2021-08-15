@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(riley2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    filter: saturate(90%);
+
+}
+
+.div-descricao {
+    height: 350px;
+    background-color: rgba(178, 161, 187, 0.784);
+    box-shadow: 8px 8px 8px rgb(43, 41, 41);
+    border-radius: 15px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.descricao {
+    font-family: 'Inconsolata', monospace;
+    color: rgb(60, 27, 73);
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.descricao > strong {
+  text-transform: uppercase;
+}
+
+.container-imagens {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.container-imagens > li {
+    background-color: rgba(178, 161, 187, 0.784);
+    box-shadow: 8px 8px 8px rgb(39, 17, 48);
+    border-radius: 15px;
+    margin: 0px 35px;
+}
+
+.container-imagens > li:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+} 
+
+.personagem {
+    height: 170px;
+    width: 136px;  
+}
+
+.nome-personagem {
+    font-family: 'Inconsolata', monospace;
+    color: rgb(60, 27, 73);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
