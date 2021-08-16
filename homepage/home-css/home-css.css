@@ -15,10 +15,10 @@ body {
 
 .div-descricao {
     height: 350px;
-    background-color: rgba(178, 161, 187, 0.784);
-    box-shadow: 8px 8px 8px rgb(43, 41, 41);
+    background-color: rgb(255, 251, 40);
+    box-shadow: 6px 6px 6px rgba(17, 17, 17, 0.603);
     border-radius: 15px;
-    width: 40%;
+    width: 550px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -30,7 +30,7 @@ body {
 
 h1 {
     font-family: 'Inconsolata', monospace;
-    color: white;
+    color: rgb(118, 11, 160);
     text-align: center;
     font-weight: bolder;
     font-size: 60px;
@@ -38,7 +38,7 @@ h1 {
 
 .descricao {
     font-family: 'Inconsolata', monospace;
-    color: rgb(60, 27, 73);
+    color: rgb(118, 11, 160);
     padding: 5px;
     text-align: center;
     font-size: 25px;
@@ -55,8 +55,8 @@ h1 {
 }
 
 .container-imagens > li {
-    background-color: rgba(178, 161, 187, 0.784);
-    box-shadow: 8px 8px 8px rgb(39, 17, 48);
+    background-color: rgb(255, 251, 40);
+    box-shadow: 6px 6px 6px rgba(17, 17, 17, 0.603);
     border-radius: 15px;
     margin: 0px 35px;
 }
@@ -74,7 +74,7 @@ h1 {
 
 .nome-personagem {
     font-family: 'Inconsolata', monospace;
-    color: rgb(60, 27, 73);
+    color: rgb(118, 11, 160);
     font-size: 18px;
     font-weight: bold;
     text-align: center;
