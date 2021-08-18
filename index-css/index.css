@@ -15,7 +15,7 @@ body {
 
 .div-descricao {
     height: 350px;
-    background-color: rgb(255, 251, 40);
+    background-color:#E6644D;
     box-shadow: 6px 6px 6px rgba(17, 17, 17, 0.603);
     border-radius: 15px;
     width: 550px;
@@ -30,7 +30,8 @@ body {
 
 h1 {
     font-family: 'Inconsolata', monospace;
-    color: rgb(118, 11, 160);
+    background-color: #E6644D;
+    color: white;
     text-align: center;
     font-weight: bolder;
     font-size: 60px;
@@ -38,7 +39,7 @@ h1 {
 
 .descricao {
     font-family: 'Inconsolata', monospace;
-    color: rgb(118, 11, 160);
+    color: white;
     padding: 5px;
     text-align: center;
     font-size: 25px;
@@ -55,8 +56,8 @@ h1 {
 }
 
 .container-imagens > li {
-    background-color: rgb(255, 251, 40);
-    box-shadow: 6px 6px 6px rgba(17, 17, 17, 0.603);
+    background-color: #E6644D;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.603);
     border-radius: 15px;
     margin: 0px 35px;
 }
@@ -74,7 +75,7 @@ h1 {
 
 .nome-personagem {
     font-family: 'Inconsolata', monospace;
-    color: rgb(118, 11, 160);
+    color: white;
     font-size: 18px;
     font-weight: bold;
     text-align: center;

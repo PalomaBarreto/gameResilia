@@ -3,28 +3,28 @@ html, body {
 }
 
 body {
-    background-image: url(./final.jpg);
+    background-image: url(./imagem-principal3.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0px;
-   
+    
 }
 
 .container {
     height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding: 5px;
 }
 
 h1, a, p{
     font-family: 'Inconsolata', monospace;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.233);
+    background-color: rgba(0, 0, 0, 0.507);
     border-radius: 10px;
 }
 
@@ -35,10 +35,10 @@ h1 {
 }
 
 p{
- font-size: 40px;
- text-align: center;
- font-weight: bold;
- width: 70%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    width: 70%;
 }
 
 a{
@@ -54,7 +54,30 @@ a{
 a:hover{
     transform: scale(1.1);
     color: white;
-    border-color: rgb(60, 27, 73);
-    background-color: rgb(60, 27, 73);
+    border-color: white;
     transition: 0.5s;
+}
+
+
+@media (max-width:700px) {
+    body{
+        background-image: none;
+        background-color: rgb(22, 6, 94);
+    }
+    
+    .container{
+        width: 95%;
+    }
+       
+    h1 {
+        font-size: 36px;
+    }
+
+    p{
+        padding: 10px;
+    }
+
+    p, a{
+        font-size: 18px;
+    }
 }
